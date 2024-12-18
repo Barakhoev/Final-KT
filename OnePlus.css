@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff4d4d, #000);
+    color: white;
+    background-image: url('https://oneplus.com.ru/uploads/slide/da1adb619fa64956aaf0966117af05d5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header {
+    text-align: center;
+    padding: 50px 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid #ff0000;
+}
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+.header p {
+    font-size: 1.5em;
+}
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section h2 {
+    font-size: 2em;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    padding-bottom: 10px;
+}
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+.section li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+.image-gallery img {
+    width: 32%;
+    border-radius: 10px;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.img{
+    transform: scale(1.5)
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold
+}
+nav a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+nav a:hover {
+    color: #ffb7b7;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+header {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 3px solid #ff0000;
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 35px;
+}

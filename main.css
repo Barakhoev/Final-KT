@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header {
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    border-bottom: 3px solid #ff0000;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li {
+    padding: 10px 20px;
+    font-weight: bold
+}
+nav a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+nav a:hover {
+    color: #ffb7b7;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding-top: 60px;
+}
+main section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+main h1 {
+    font-size: 36px;
+}
+
+.devices {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.device {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+    padding: 26px;
+    text-align: center;
+}
+.device img {
+    width: 200px;
+}
+footer {
+    background-color: #000000;
+    text-align: center;
+    padding: 15px 0;
+}
+.content img {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+header {
+    position: relative;
+    background-color: white;
+    padding: 10px;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 35px;
+}
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#section1 {
+    background-image: url('https://oneplus.com.ru/uploads/slide/88eddc105176fb6f89627078a23df01a.png');
+}
+
+#section2 {
+    background-image: url('https://oneplus.com.ru/uploads/slide/5f7ff0572b49e77d0e0b43bc8ffab1e7.png');
+}
+
+#section3 {
+    background-image: url('https://oneplus.com.ru/uploads/slide/f6cce7a3256cc101f2cc04155bd75db2.jpg');
+}
+
+#section4 {
+    background-image: url('https://oneplus.com.ru/uploads/product/ace-3v/i/images-pack-2153_3266-1.jpg.avif');
+}
+
+#section5 {
+    background-image: url('https://oneplus.com.ru/uploads/product/7-pro/images/slide_6_lg.jpg');
+}
+
+#section6 {
+    background-image: url('https://oneplus.com.ru/uploads/slide/da1adb619fa64956aaf0966117af05d5.png');
+}
+
+.section h1 {
+    font-size: 3rem;
+}
+
+.section p {
+    font-size: 1.5rem;
+}
